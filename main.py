@@ -27,7 +27,7 @@ action = webdriver.ActionChains(browser)
 
 browser.get("https://www.instagram.com/")
 usrnm = input('Username gir :')
-pswd = input('Şifresi gir:')
+pswd = input('Şifreni gir:')
 time.sleep(5)
 
 
@@ -41,7 +41,7 @@ b.send_keys(pswd+ Keys.ENTER)
 
 time.sleep(4)
 
-hedef = input('Hedef hesap giriniz:')
+hedef = input('Hedef hesap giriniz lütfen:')
 browser.get('https://www.instagram.com/' + hedef)
 
 time.sleep(4)
